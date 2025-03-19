@@ -126,12 +126,20 @@ function App() {
               Generative AI Developer & Python Full-Stack Engineer
             </p>
             <div className="flex gap-4 justify-center">
-              <button className="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg flex items-center gap-2 transition-colors">
-                <Download className="w-5 h-5" /> Download Resume
-              </button>
-              <button className="px-6 py-3 border border-purple-500 hover:bg-purple-500/20 rounded-lg transition-colors">
+             <a 
+                href="/Pruthvi Rathod cv.pdf" 
+                download="Pruthvi Rathod cv.pdf"
+                className="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg flex items-center gap-2 transition-colors"
+                >
+              <Download className="w-5 h-5" /> Download Resume
+            </a>
+              <a 
+              href='#contact'
+              className="px-6 py-3 border border-purple-500 hover:bg-purple-500/20 rounded-lg transition-colors">
+              <button >
                 Hire Me
               </button>
+              </a>
             </div>
           </div>
         </div>
